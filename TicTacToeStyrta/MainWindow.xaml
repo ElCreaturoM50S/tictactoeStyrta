@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TicTacToeStyrta"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="500" Width="400">
 
     <Window.Resources>
         <Style TargetType="{x:Type Button}">
@@ -25,11 +25,13 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
+
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
+
             <Button Tag="0,0"/>
             <Button Tag="0,1" Grid.Column="1"/>
             <Button Tag="0,2" Grid.Column="2"/>
@@ -41,10 +43,13 @@
             <Button Tag="2,2" Grid.Row="2" Grid.Column="2"/>
         </Grid>
 
-        <TextBlock x:Name="WinScreen" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="80" FontWeight="Bold" Background="Yellow" Visibility="Collapsed">
+        <TextBlock x:Name="WinScreen" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="55" FontWeight="Bold" Background="Yellow" Visibility="Collapsed">
             Player  Wins!!!
         </TextBlock>
+
+        <Button x:Name="btnNewGame" Content="New Game" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnNewGame_Click" Margin="0,242,0,0" Background="Yellow" FontWeight="Bold" Visibility="Collapsed"/>
         
-        <Button x:Name="btnNewGame" Content="New Game" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Click="btnNewGame_Click"/>
+        <TextBlock x:Name="playingNow"   HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="Gra teraz - X" VerticalAlignment="Center" Background="Red" FontWeight="Bold" FontSize="30" Padding="25,10,25,10"/>
+        
     </Grid>
 </Window>

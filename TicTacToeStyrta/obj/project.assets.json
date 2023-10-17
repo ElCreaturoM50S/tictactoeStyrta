@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Zapisy\\VisualStudioRepos\\TicTacToeStyrta\\TicTacToeStyrta\\TicTacToeStyrta.csproj",
+      "projectUniqueName": "D:\\Zapisy\\Git_Repositorys\\tictactoeStyrta\\TicTacToeStyrta\\TicTacToeStyrta.csproj",
       "projectName": "TicTacToeStyrta",
-      "projectPath": "D:\\Zapisy\\VisualStudioRepos\\TicTacToeStyrta\\TicTacToeStyrta\\TicTacToeStyrta.csproj",
+      "projectPath": "D:\\Zapisy\\Git_Repositorys\\tictactoeStyrta\\TicTacToeStyrta\\TicTacToeStyrta.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Zapisy\\VisualStudioRepos\\TicTacToeStyrta\\TicTacToeStyrta\\obj\\",
+      "outputPath": "D:\\Zapisy\\Git_Repositorys\\tictactoeStyrta\\TicTacToeStyrta\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

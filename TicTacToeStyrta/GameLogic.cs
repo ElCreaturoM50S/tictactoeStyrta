@@ -7,11 +7,12 @@ namespace TicTacToeStyrta
 {
     public class GameLogic
     {
-        public string CurrentPlayer { get; set; } = x;
+        public string CurrentPlayer = x;
         private const string x = "X";
         private const string o = "O";
         private string[,] Board = new string[3, 3];
-        public int moves { get; set; } = 0;
+        public int moves = 0;
+        public bool stillPlaying = true;
 
         public void SetNextPlayer()
         {
@@ -67,7 +68,7 @@ namespace TicTacToeStyrta
             return false;
         }
 
-        internal void UpdateBoard(Position position, string value)
+        public void UpdateBoard(Position position, string value)
         {
             Board[position.x, position.y] = value;
         }
